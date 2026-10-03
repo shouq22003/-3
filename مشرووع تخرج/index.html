@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التنبيهات</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- شريط الحالة العلوي -->
+        <div class="status-bar">
+            <span>9:41</span>
+            <div class="status-icons">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i>
+            </div>
+        </div>
+
+        <!-- الهيدر الرئيسي -->
+        <div class="header">
+            <button class="back-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            <h2>التنبيهات</h2>
+        </div>
+
+        <!-- قائمة التنبيهات -->
+        <div class="notifications-list">
+            
+            <!-- تنبيه 1 -->
+            <div class="notification-card">
+                <div class="icon-container blue">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="content">
+                    <h3>قبل انتهاء الحجز</h3>
+                    <p>تذكير أن حجزك سينتهي خلال ساعة</p>
+                    <span class="tag">جديد</span>
+                </div>
+                <span class="time">09:00</span>
+            </div>
+
+            <!-- تنبيه 2 -->
+            <div class="notification-card">
+                <div class="icon-container yellow">
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="content">
+                    <h3>انتهاء الحجز</h3>
+                    <p>يرجى إخلاء اللوكر بعد انتهاء الحجز</p>
+                </div>
+                <span class="time">12:00</span>
+            </div>
+
+            <!-- تنبيه 3 -->
+            <div class="notification-card">
+                <div class="icon-container red">
+                    <i class="fa-solid fa-bell-exclamation"></i>
+                </div>
+                <div class="content">
+                    <h3 class="danger-title">تنبيه أمني</h3>
+                    <p>تم رصد محاولة عبث باللوكر رقم 8</p>
+                </div>
+                <span class="time">11:30</span>
+            </div>
+
+            <!-- تنبيه 4 -->
+            <div class="notification-card">
+                <div class="icon-container gray">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="content">
+                    <h3>تم تمديد الحجز</h3>
+                    <p>تم تمديد حجزك بنجاح</p>
+                </div>
+                <span class="time">10:45</span>
+            </div>
+
+        </div>
+
+        <!-- شريط التنقل السفلي -->
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>الرئيسية</span>
+            </div>
+            <div class="nav-item">
+                <i class="fa-regular fa-bell"></i>
+                <span>التشغيلات</span>
+            </div>
+            <div class="nav-item">
+                <i class="fa-regular fa-bell"></i>
+                <span>التنبيهات</span>
+            </div>
+            <div class="nav-item">
+                <i class="fa-regular fa-user"></i>
+                <span>الملف الشخصي</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
